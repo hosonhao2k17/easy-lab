@@ -1,0 +1,13 @@
+name: Easy Lab 
+
+on: 
+  push: 
+    branches:
+      - main 
+jobs:
+  easy-lab:
+    runs-on: ubuntu-lastest
+
+    steps:
+      - name: Say something 
+        run: "Hello anbatocom"
