@@ -10,4 +10,8 @@ jobs:
 
     steps:
       - name: Say something 
-        run: echo "Hello anbatocom"
+        run: echo "Hello anbatocom" 
+      - name: List Structure 
+        run: pwd 
+      - name: List directory 
+        run: ls 
